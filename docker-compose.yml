@@ -1,0 +1,11 @@
+# https://docs.docker.com/compose/
+version: '3'
+
+services:
+
+  ungit:
+    image: thinkopensolutions/ungit:1.4.19
+    build:
+      context: .
+      dockerfile: Dockerfile
+
