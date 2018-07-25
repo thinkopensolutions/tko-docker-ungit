@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     && apt-get -y autoremove \
     && sync
     
-RUN npm install ungit@1.4.19 -g \
+RUN npm install ungit@1.4.31 -g \
     && sync
 
 USER node
